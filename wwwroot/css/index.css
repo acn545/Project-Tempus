@@ -1,0 +1,246 @@
+body{
+    margin: 0px auto;
+    display: inline;
+    background-color: black;
+    color: white;
+    
+    
+}
+nav ul, li{
+    list-style-type: none;
+    display: inline;
+    padding-right: 25px;
+}
+li:hover{
+    color: bisque;
+}
+.wrapper{
+    max-width: 100%;
+    margin: 0px auto;
+    background: #f9f9f9;
+    font-size: 24px;
+    padding: 0px;
+    padding-top: 35px;
+    min-width: 650px;
+    
+}
+.parallax{
+    background: url("../images/salvage.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
+    margin: 0px;
+    min-width: 650px;
+}
+.parallax1{
+    background: url("../images/sifithing.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
+    margin: 0px;
+    margin-top: -80px;
+    min-width: 650px;
+}
+.parallax2{
+    background: url("../images/sifi.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
+    margin: 0px;
+    margin-top: -30px;
+    min-width: 650px;
+}
+nav{
+    width: 100%;
+    min-width: 450px;
+    height: 40px;
+    background: black;
+    position: fixed;
+    color: white;
+    font-size: 20px;
+    z-index: 999;
+
+    border-bottom: 3px;
+    border-color: green;
+    border-bottom-style: solid;
+    padding-top: 10px;
+}
+.inside{
+    width: 563px;
+    height: 200px;
+    border: 3px solid black;
+    opacity: 10%;
+    overflow: hidden;
+    overflow-y: scroll;
+    background: rgba(121, 128, 121, 0.6);
+    position: relative;
+    top: 1%;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 5px;
+    vertical-align: top;
+    
+}
+.inside:hover{
+    box-shadow: 2px 3px black;
+    border-color: green;
+}
+.inside1:hover{
+    box-shadow: 2px 3px black;
+    border-color: green;
+}
+.inside2:hover{
+    box-shadow: 2px 3px black;
+    border-color: green;
+}
+.vid_box:hover{
+    box-shadow: 2px 3px black;
+    border-color: green;
+}
+
+.inside1{
+    width: 50%;
+    height: 50%;
+    border: 3px solid black;
+    opacity: 10%;
+    margin: 0px auto;
+    overflow: hidden;
+    background: rgba(134, 120, 72, 0.4);
+    position: relative;
+    top: 1px;
+    padding: 10px;
+    margin-top: 2%;
+    display: inline-block;
+    vertical-align: top;
+    left: 10%;
+}
+.inside2{
+    width: 50%;
+    height: 50%;
+    border: 3px solid black;
+    opacity: 10%;
+    margin: 0px auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background: rgba(77, 129, 226, 0.4);
+    position: relative;
+    top: 120px;
+    padding: 10px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+iframe{
+    margin: 0px auto;
+}
+.vid_box{
+    width: 563px;
+    height: 315px;
+    border: 3px solid black;
+    opacity: 10%;
+    overflow: hidden;
+    background: rgba(121, 128, 121, 0.6);
+    position: relative;
+    top: .5%;
+    padding: 10px;
+    display: inline-block;
+}
+.content{
+    margin: 0px auto;
+    max-width: 1080px;
+    min-width: 565px;
+    width: 95%;
+    padding-top: 2%;
+  /*  border: 2px solid yellow;*/
+    height: 700px;
+}
+.twitter{
+    min-width: 100px;
+    width: 80%;
+    max-width: 250px;
+    max-height: 575px;
+    min-height: 50px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin: 0px auto;
+
+}
+.portfolio_img{
+    width: 30px;
+    height: 30px;
+    display: inline;
+    position: relative;
+    vertical-align: top;
+}
+.portfolio_img:hover{
+    width: 35px;
+    height: 35px;
+}
+.left_side{
+    display: inline-block;
+    min-width: 590px;
+    max-width: 60%;
+
+  /* border: 2px solid red;*/
+}
+.right_side{
+    width: 300px;
+    display: inline-block;
+  /*  border: 2px solid blue; */
+    vertical-align: top;
+}
+.dev_icons{
+    margin: 0px auto;
+    position: relative;
+    top: -25px;
+    left: 790px;
+}
+#navigation{
+    margin: 0px auto;
+    max-width: 1080px;
+    position: relative;
+}
+
+/* media queries */
+@media(max-width: 980px){
+.right_side{
+    width: 250px;
+}
+
+    }
+
+@media(max-width: 900px){
+    .right_side{
+        width: 200px;
+    }
+        
+}
+@media(max-width: 860px){
+    .right_side{
+        display: none;
+    }
+        
+}
+
+/* image slider*/
+
+#slider{
+    display: inline-block;
+    margin: 0px auto;
+    max-width: 1080px;
+    
+    }
+    #slider .mySlides{
+        display: none;
+        width: 85%;
+        border: 3px solid black;
+    }
+    .slide_right{
+        margin-left: 30%;
+    }
+    .slide_left{
+        margin-left: 20%;
+    }

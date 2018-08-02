@@ -1,0 +1,10 @@
+c:\Users\antho\Documents\Webprojects\Bteam\bin\Debug\netcoreapp2.0\Bteam.deps.json
+c:\Users\antho\Documents\Webprojects\Bteam\bin\Debug\netcoreapp2.0\Bteam.runtimeconfig.json
+c:\Users\antho\Documents\Webprojects\Bteam\bin\Debug\netcoreapp2.0\Bteam.runtimeconfig.dev.json
+c:\Users\antho\Documents\Webprojects\Bteam\bin\Debug\netcoreapp2.0\Bteam.dll
+c:\Users\antho\Documents\Webprojects\Bteam\bin\Debug\netcoreapp2.0\Bteam.pdb
+c:\Users\antho\Documents\Webprojects\Bteam\obj\Debug\netcoreapp2.0\Bteam.csproj.CoreCompileInputs.cache
+c:\Users\antho\Documents\Webprojects\Bteam\obj\Debug\netcoreapp2.0\Bteam.AssemblyInfoInputs.cache
+c:\Users\antho\Documents\Webprojects\Bteam\obj\Debug\netcoreapp2.0\Bteam.AssemblyInfo.cs
+c:\Users\antho\Documents\Webprojects\Bteam\obj\Debug\netcoreapp2.0\Bteam.dll
+c:\Users\antho\Documents\Webprojects\Bteam\obj\Debug\netcoreapp2.0\Bteam.pdb
