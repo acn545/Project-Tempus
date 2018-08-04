@@ -178,6 +178,8 @@ iframe{
 .portfolio_img:hover{
     width: 35px;
     height: 35px;
+    display: inline-block;
+    vertical-align: top;
 }
 .left_side{
     display: inline-block;
@@ -239,8 +241,56 @@ iframe{
         border: 3px solid black;
     }
     .slide_right{
-        margin-left: 30%;
+        float: right;
+        z-index: 999;
+        margin-right: 14.7%;
+        position: relative;
+        top: -300px;
     }
     .slide_left{
-        margin-left: 20%;
+        float: left;
+        z-index: 999;
+        position: relative;
+        top: -300px;
+        margin-left: .15%;
+    }
+    .Row_boxes{
+        margin: 20px 20px 20px 10px;
+        width: 25%;
+        height: 80%;
+        display: inline-block;
+        vertical-align: top;
+        opacity: .7;
+        overflow: hidden;
+    }
+    .Row_boxes h3{
+        text-decoration: underline;
+        display: inline-block;
+        position: relative;
+        top: -5%;
+        left: 8%;
+        
+    }
+    .Row_boxes p{
+        padding: 5px;
+        margin: 5px;
+
+        display: block;
+    }
+    .Row_boxes:hover{
+        background-color: black;
+        border-radius: 10px;
+        opacity: .85;
+    }
+    .Row_boxes p:hover{
+        opacity: .99;
+    }
+    footer{
+        border-top: 2px solid green;
+    }
+    .img{
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+        display: inline-block;
     }
