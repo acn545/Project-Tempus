@@ -4,43 +4,45 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="~/css/index.css">
-    <title>@ViewData["Title"] - Bteam</title>
-
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-    (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-4400672569825217",
-        enable_page_level_ads: true
-    });
-</script>
+    <link rel="stylesheet" href="~/css/mediaQ.css">
+    <title>@ViewData["Title"] Project Tempus</title>
 </head>
 <body>
     <nav>
         <div id="navigation">
+            <div id="logo">
+                <p>Project Tempus</p>
+                <img class="Logo_img" src="~/images/facebook.png">
+            </div>
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
-                <li>Forums</li>
+               <a href="/"> <li>Home</li></a>
+               <a href="/"><li>About</li></a>
+               <a href="/"><li>Dev Team</li></a>
             </ul>
-                <div class="dev_icons">
-                    <img class="portfolio_img" src="~/images/mh1.jpg">
-                    <img class="portfolio_img" src="~/images/mh2.jpg">
-                    <img class="portfolio_img" src="~/images/mh3.jpg">
-                    <img class="portfolio_img" src="~/images/mh4.jpg">
-                </div>
+            <div class="Socials">
+                <a href="http://facebook.com"><img class="social_buttons" src="~/images/facebook.png"></a>
+                <a href="http://twitter.com"><img class="social_buttons" src="~/images/twitter.png"></a>
+                <a href="http://instagram.com"><img class="social_buttons" src="~/images/insta.png"></a>
+            </div>
         </div>
         <div id="nav_minimized">
-                 <div class="dropdown">
-                    <button class="dropbtn">Menu
-                    <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content">
+            <div id="logo">
+                <img class="Logo_img" src="~/images/facebook.png">
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn"><img class="social_buttons" src="~/images/menu.png">
+                <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
                     <a href="#">Home</a>
+                    <a href="#">Dev Team</a>
                     <a href="#">About</a>
-                    <a href="#">Contact</a>
-                    <a href="#">Forums</a>
                 </div>
+            </div>
+            <div class="Socials">
+                <a href="http://facebook.com"><img class="social_buttons" src="~/images/facebook.png"></a>
+                <a href="http://twitter.com"><img class="social_buttons" src="~/images/twitter.png"></a>
+                <a href="http://instagram.com"><img class="social_buttons" src="~/images/insta.png"></a>
             </div>
         </div>
     </nav>
@@ -48,13 +50,7 @@
 
         <footer>
             <div id="navigation">
-                <p>&copy; 2018 - Bteam</p>
-                <div class="dev_icons">
-                        <img class="portfolio_img" src="~/images/facebook.png">
-                        <img class="portfolio_img" src="~/images/twitter.png">
-                        <img class="portfolio_img" src="~/images/insta.png">
-
-                    </div>
+                <p>&copy; 2018 - Project Tempus</p>
              <div id="navigation"></div>
         </footer>
     </div>

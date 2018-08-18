@@ -1,0 +1,135 @@
+.parallax{
+    background: url("../images/inengine.JPG") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 800px;
+    margin: 0px;
+    width: 100%;
+}
+.parallax1{
+    background: url("../images/inengine.JPG") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 800px;
+    margin: 0px;
+    margin-top: -80px;
+    min-width: 650px;
+    width: 100%;
+}
+iframe{
+    margin: 0px auto;
+    width: 100%;
+
+}
+.content{
+    margin: 0px auto;
+    max-width: 1080px;
+    min-width: 565px;
+    width: 95%;
+    padding-top: 2%;
+    height: 700px;
+   /* border: 2px solid green;*/
+}
+.twitter{
+    width: 70%;
+    max-width: 250px;
+    max-height: 575px;
+    min-height: 50px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin: 0px auto;
+
+
+}
+.left_side{
+    margin-top: 40px;
+    display: inline-block;
+    width: 55%;
+
+/* border: 2px solid red;*/
+}
+.right_side{
+    margin-top: 40px;
+    width: 35%;
+    display: inline-block;
+   /*border: 2px solid blue;*/ 
+    vertical-align: top;
+}
+#imgs{
+    margin: 0px auto;
+    position: relative;
+    top: 10px;
+    margin-right: 10px;
+}
+.game_img{
+    width: 100px;
+    height: 100px;
+}
+.left_img{
+    width: 80%;
+}
+
+#newsletter{
+    background-color: rgb(158,89,24);
+    border: 1.5px solid rgb(158,89,24);
+    display: inline-block;
+    padding: 0px 15px 0px 15px;
+    margin-top: 10px;
+    font-size: 80%;
+    border-radius: 5px;
+}
+#info{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+iframe{
+    border: 1px solid rgb(158,89,24);
+    
+}
+#text{
+    border: 1px solid rgb(158,89,24);
+    background-color:black;
+    opacity: .80;
+}
+.text{
+    padding: 10px;
+}
+#text:hover{
+    opacity: 1;
+}
+@media(max-width: 1000px){
+
+    .left_side{
+        margin: 0px auto;
+        margin-top: 40px;
+        width: 55%;
+    }
+    iframe{
+        margin: 0px auto;
+        width: 400px;
+        height: 224px;
+    
+    }
+}
+@media(max-width: 670px){
+    .right_side{
+        display: none;
+    }
+
+    .left_side{
+        margin: 0px auto;
+        margin-top: 40px;
+        width: 80%;
+    }
+
+
+}
+@media(max-width: 300px){
+    iframe{
+        margin: 0px auto;
+        width: 50px;
+        height: 50px;
+    }
+}

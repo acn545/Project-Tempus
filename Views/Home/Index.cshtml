@@ -1,75 +1,54 @@
-﻿<!DOCTYPE html>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-        <script>
-            $(document).ready(function(){
-                showDivs(1);
-            });
-
-            var slideIndex = 1;
-            
-            function plusDivs(n) {
-                showDivs(slideIndex += n);
-            }
-            
-            function showDivs(n) {
-                var i;
-                var x = document.getElementsByClassName("mySlides");
-                if (n > x.length) {slideIndex = 1}
-                if (n < 1) {slideIndex = x.length} ;
-                for (i = 0; i < x.length; i++) {
-                    x[i].style.display = "none";
-                }
-                x[slideIndex-1].style.display = "block";
-            }
-        </script>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>B-Team</title>
-        <link rel="stylesheet" href="~/css/index.css">
-    </head>
-        <div class="wrapper">
-            <div class="parallax">
-                <div class="content">
-                    <div class="left_side">
-                        <div class="vid_box"><iframe width="560" height="315" src="https://www.youtube.com/embed/UjxS9ciNlII" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
-                        <div class="inside">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet nisl in mi sodales tempor vitae vel odio. Aliquam a ante condimentum, semper tellus a, auctor risus. Phasellus non sem dapibus justo mattis mattis eu non leo. Maecenas consequat vitae sapien eget facilisis. Cras et hendrerit arcu. Sed ex est, cursus vel congue in, tincidunt sit amet nisl. Praesent a convallis lorem, eget suscipit mi. Pellentesque et eros eros. Quisque placerat consequat nulla eget aliquet. Duis tincidunt dolor vitae laoreet pellentesque. Sed iaculis, mi at euismod accumsan, sapien erat volutpat sapien, sed viverra leo nisi at massa.In sapien leo, congue eget orci in, posuere egestas augue. Vivamus luctus nec lectus a tempus. In accumsan, magna et cursus tristique, dui odio lobortis sapien, nec scelerisque risus mauris in dolor. Nunc pharetra sapien id urna sollicitudin, vel facilisis magna laoreet. Fusce ultricies odio vel lorem ultricies, eget accumsan ipsum tincidunt. In id ligula quis diam gravida ullamcorper eget tristique est. In hac habitasse platea dictumst. Vestibulum tincidunt blandit dolor non vulputate. Nullam placerat vestibulum massa, efficitur auctor massa dignissim luctus. Phasellus ac nibh a risus varius porttitor. Aliquam erat volutpat.Etiam finibus, magna sit amet rhoncus mollis, ligula risus bibendum elit, blandit eleifend mauris risus sit amet diam. Ut a accumsan justo. Donec vitae ante volutpat, bibendum mi vel, cursus metus. Integer in magna justo. Sed et diam sed justo porta dapibus at non orci. Duis id leo sapien. Vestibulum sollicitudin malesuada augue nec imperdiet.Sed viverra arcu metus, luctus interdum magna egestas in. Mauris facilisis velit eget nisi condimentum, nec faucibus felis rutrum. Cras scelerisque sem ut est commodo ultrices. Aliquam scelerisque leo at pharetra tristique. Nullam eget erat auctor tellus suscipit pellentesque vitae condimentum lorem. Quisque in ante ante. Nulla a leo et erat scelerisque sollicitudin et et nunc. Aliquam congue ex ex, at consequat urna varius eget. Nunc id egestas orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien orci, suscipit sed rutrum ac, luctus quis est. Nam nec auctor odio. Pellentesque fermentum est metus, a aliquam justo cursus ac. Maecenas congue nisi at quam gravida, eu rhoncus justo hendrerit. Aenean at porttitor mauris.Maecenas tincidunt massa sit amet sem vehicula euismod. Praesent quis egestas augue. Maecenas ac rhoncus ante, et volutpat nisl. Vestibulum et gravida nunc. Ut tempus feugiat ipsum, eget efficitur urna tincidunt eget. Suspendisse in vestibulum lorem. Maecenas tempor ligula sed est blandit fringilla. Donec tristique justo ac lorem euismod, ac suscipit leo consectetur. Praesent aliquam arcu ac nulla pulvinar, vel consectetur ligula tincidunt.</div>
-                    </div>
-                    <div class="right_side">
-                        <div class="twitter"><a class="twitter-timeline" href="https://twitter.com/TwitterDev/timelines/539487832448843776?ref_src=twsrc%5Etfw">National Park Tweets - Curated tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </div></div>
-                    </div>
+﻿<link rel="stylesheet" href="~/css/mediaQ.css">
+<link rel="stylesheet" href="~/css/index2.css">
+<script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+<script>
+    $(document).ready(function(){
+        $('#newsletter').hover(function(){
+            $(this).css({"backgroundColor":"rgb(158,89,24)" , "opacity": ".8"})
+        }, function(){
+            $(this).css({"backgroundColor":"rgb(158,89,24)", "opacity": "1" })
+        })
+    });
+</script>
+<div class="parallax">
+    <div class="content">
+        <div class="left_side">
+            <h2>Welcome to PAX West!</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/UjxS9ciNlII" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <p> B-team is a game about something and a description will be placed here under the trailer video in the future.</p>
+            <div id="imgs">
+                <img class="game_img" src="~/images/door_screenshot.JPG">
+                <img class="game_img" src="~/images/elevatorwithdoor.JPG">
+                <img class="game_img" src="~/images/elevatorwithoutdoor.JPG">
+                <img class="game_img" src="~/images/door_screenshot.JPG">
+                <img class="game_img" src="~/images/elevatorwithoutdoor.JPG">
             </div>
-        <div class="parallax1">
+            <p id="info"> Want to get email updates on Project Tempus?</p>
+            <div id="newsletter"> 
+                <h4>SIGN UP</h4>
+            </div>
+        </div>
+        <div class="right_side">
+            <div class="twitter"><a class="twitter-timeline" href="https://twitter.com/TwitterDev/timelines/539487832448843776?ref_src=twsrc%5Etfw">National Park Tweets - Curated tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </div></div>
+        </div>
+</div>
+<div class="parallax1">
             <div class="content">
-                <div id="slider">
-                    <img class="mySlides" src="~/images/roboc.jpg" alt="robot chief">
-                    <img class="mySlides" src="~/images/robodog.jpg" alt="robot chief">
-                    <img class="mySlides" src="~/images/salvage.jpg" alt="robot chief">
-                    <img class="mySlides" src="~/images/armor.jpg" alt="robot chief">
-                    <button class="slide_left" onclick="plusDivs(-1)">&#10094;</button>
-                    <button class="slide_right" onclick="plusDivs(+1)">&#10095;</button>
+                <div class="left_side">
+                    <img class="left_img" src="~/images/POSTER.JPG">
+                </div>
+                <div class="right_side" id="text">
+                    <div class="text">
+                        <h2> Welcome to Pax West in Seattle!</h2>
+                        <h3> This is Project Tempus</h3>
+                        <ul>
+                            <li>a list of filler</li>
+                            <li>a list of filler</li>
+                            <li>a list of filler</li>
+                            <li>a list of filler</li>
+                            <li>a list of filler</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="parallax2">
-            <div class="content">
-                <div class="Row_boxes">
-                    <img class="img" src="~/images/mh1.jpg">
-                    <h3> TITLE</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et ligula ultrices, viverra sapien et, efficitur massa. Sed mattis, eros sed aliquam bibendum, sapien felis iaculis quam, sed feugiat magna urna sed sem. Vestibulum tempus dolor sed diam convallis, sed iaculis odio aliquam. Vivamus quis tellus quis nibh finibus maximus. </p>
-                </div>
-                <div class="Row_boxes">
-                    <img class="img" src="~/images/mh2.jpg">
-                    <h3> TITLE</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et ligula ultrices, viverra sapien et, efficitur massa. Sed mattis, eros sed aliquam bibendum, sapien felis iaculis quam, sed feugiat magna urna sed sem. Vestibulum tempus dolor sed diam convallis, sed iaculis odio aliquam. Vivamus quis tellus quis nibh finibus maximus. </p>
-                </div>
-                <div class="Row_boxes">
-                    <img class="img" src="~/images/mh3.jpg">
-                    <h3> TITLE</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et ligula ultrices, viverra sapien et, efficitur massa. Sed mattis, eros sed aliquam bibendum, sapien felis iaculis quam, sed feugiat magna urna sed sem. Vestibulum tempus dolor sed diam convallis, sed iaculis odio aliquam. Vivamus quis tellus quis nibh finibus maximus. </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</html>
