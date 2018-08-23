@@ -3,12 +3,21 @@
 <script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
 <script>
     $(document).ready(function(){
+        $("#newsletter").click(function(){
+            $("#pop_up").css({"display":"inline-block"})
+        });
+        $("#close").click(function(){
+            $("#pop_up").css({"display":"none"});
+        });
         $('#newsletter').hover(function(){
-            $(this).css({"backgroundColor":"rgb(158,89,24)" , "opacity": ".8"})
+            $(this).css({"box-shadow": " 2px 2px 2px black", "cursor":"pointer"});
         }, function(){
-            $(this).css({"backgroundColor":"rgb(158,89,24)", "opacity": "1" })
-        })
+            $(this).css({"box-shadow": " none"});
+        });
+
+
     });
+
 </script>
 <div class="parallax">
     <div class="content">
@@ -17,15 +26,22 @@
             <iframe width="560" height="315" src="https://www.youtube.com/embed/UjxS9ciNlII" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             <p> B-team is a game about something and a description will be placed here under the trailer video in the future.</p>
             <div id="imgs">
-                <img class="game_img" src="~/images/door_screenshot.JPG">
-                <img class="game_img" src="~/images/elevatorwithdoor.JPG">
-                <img class="game_img" src="~/images/elevatorwithoutdoor.JPG">
-                <img class="game_img" src="~/images/door_screenshot.JPG">
-                <img class="game_img" src="~/images/elevatorwithoutdoor.JPG">
+                <img class="game_img" id="n1" src="~/images/door_screenshot.JPG">
+                <img class="game_img" id="n2" src="~/images/elevatorwithdoor.JPG">
+                <img class="game_img" id="n3" src="~/images/elevatorwithoutdoor.JPG">
+                <img class="game_img" id="n4" src="~/images/door_screenshot.JPG">
+                <img class="game_img" id="n5" src="~/images/elevatorwithoutdoor.JPG">
             </div>
             <p id="info"> Want to get email updates on Project Tempus?</p>
             <div id="newsletter"> 
-                <h4>SIGN UP</h4>
+                <h4><a>SIGN UP</a></h4>
+            </div>
+            <div id="pop_up">
+                <button id="close">X</button>
+                <form id="submit_email">
+                   Email Address: <input type="text" name="email">
+                   <button>Submit</button>
+                </form>
             </div>
         </div>
         <div class="right_side">
@@ -48,6 +64,7 @@
                             <li>a list of filler</li>
                             <li>a list of filler</li>
                         </ul>
+                        <p> WOOOOOOOOOOOOOOOOOOds safdglkjsfbvaslkgbi vvjnjg ipibv pbnpibj bih  bb apiunie pi pib einbibb i ebnbb b etbenbpiet etiet ebiebnibfbidietihe thetbmtbpijr tbg ewgnrgijgne eb  eibje tern</p>
                     </div>
                 </div>
             </div>
