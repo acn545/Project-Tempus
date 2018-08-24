@@ -15,5 +15,10 @@ namespace Bteam.Controllers
         {
             return View();
         }
+        [HttpGet("about")]
+        public IActionResult about()
+        {
+            return View();
+        }
     }
 }

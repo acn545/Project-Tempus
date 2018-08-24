@@ -1,0 +1,20 @@
+.dev_info{
+    opacity: .8;
+    background-color: black;
+    border: 1px solid rgb(158,89,24);
+    width: 40%;
+    display: inline-block;
+    margin-top: 40px;
+    padding: 20px;
+    margin-right:20px;
+}
+.dev_info:hover{
+    opacity: 1;
+}
+
+
+@media(max-width: 300px){
+    .dev_info{
+        widows: 100%;
+    }
+}

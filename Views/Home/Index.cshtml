@@ -3,6 +3,23 @@
 <script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
 <script>
     $(document).ready(function(){
+        $(".game_img").click(function(){
+            $("#large1").empty();
+            $("#large1").css({"display":"inline-block"})
+            var img_url = $(this).attr("src");
+            $("#large1").append("<img id='dynamic_img' src='" + img_url + "'>");
+            $("#dynamic_img").css({"margin":"1.5%", "width":"97%", "height":"97%"});
+        });
+
+        $("#large1").click(function(){
+            $(this).css({"display":"none"});
+            $(this).empty();
+            $("#close").click(function(){
+                $("#large1").css({"display":"none"});
+                $("#large1").empty();
+
+            });
+        });
         $("#newsletter").click(function(){
             $("#pop_up").css({"display":"inline-block"})
         });
@@ -14,7 +31,7 @@
         }, function(){
             $(this).css({"box-shadow": " none"});
         });
-
+       
 
     });
 
@@ -48,7 +65,7 @@
             <div class="twitter"><a class="twitter-timeline" href="https://twitter.com/TwitterDev/timelines/539487832448843776?ref_src=twsrc%5Etfw">National Park Tweets - Curated tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </div></div>
         </div>
 </div>
-<div class="parallax1">
+<div class="parallax">
             <div class="content">
                 <div class="left_side">
                     <img class="left_img" src="~/images/POSTER.JPG">
@@ -68,4 +85,7 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div id="large1">
         </div>
