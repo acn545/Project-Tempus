@@ -1,91 +1,79 @@
 ﻿<link rel="stylesheet" href="~/css/mediaQ.css">
 <link rel="stylesheet" href="~/css/index2.css">
+<link rel="stylesheet" href="~/css/index.css">
 <script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
 <script>
     $(document).ready(function(){
-        $(".game_img").click(function(){
-            $("#large1").empty();
-            $("#large1").css({"display":"inline-block"})
-            var img_url = $(this).attr("src");
-            $("#large1").append("<img id='dynamic_img' src='" + img_url + "'>");
-            $("#dynamic_img").css({"margin":"1.5%", "width":"97%", "height":"97%"});
-        });
-
-        $("#large1").click(function(){
-            $(this).css({"display":"none"});
-            $(this).empty();
-            $("#close").click(function(){
-                $("#large1").css({"display":"none"});
-                $("#large1").empty();
-
-            });
-        });
-        $("#newsletter").click(function(){
-            $("#pop_up").css({"display":"inline-block"})
-        });
-        $("#close").click(function(){
-            $("#pop_up").css({"display":"none"});
-        });
-        $('#newsletter').hover(function(){
-            $(this).css({"box-shadow": " 2px 2px 2px black", "cursor":"pointer"});
-        }, function(){
-            $(this).css({"box-shadow": " none"});
-        });
-       
-
+        
     });
 
 </script>
 <div class="parallax">
-    <div class="content">
-        <div class="left_side">
-            <h2>Welcome to PAX West!</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/UjxS9ciNlII" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            <p> B-team is a game about something and a description will be placed here under the trailer video in the future.</p>
-            <div id="imgs">
-                <img class="game_img" id="n1" src="~/images/door_screenshot.JPG">
-                <img class="game_img" id="n2" src="~/images/elevatorwithdoor.JPG">
-                <img class="game_img" id="n3" src="~/images/elevatorwithoutdoor.JPG">
-                <img class="game_img" id="n4" src="~/images/door_screenshot.JPG">
-                <img class="game_img" id="n5" src="~/images/elevatorwithoutdoor.JPG">
-            </div>
-            <p id="info"> Want to get email updates on Project Tempus?</p>
-            <div id="newsletter"> 
-                <h4><a>SIGN UP</a></h4>
-            </div>
-            <div id="pop_up">
-                <button id="close">X</button>
-                <form id="submit_email">
-                   Email Address: <input type="text" name="email">
-                   <button>Submit</button>
-                </form>
-            </div>
-        </div>
-        <div class="right_side">
-            <div class="twitter"><a class="twitter-timeline" href="https://twitter.com/TwitterDev/timelines/539487832448843776?ref_src=twsrc%5Etfw">National Park Tweets - Curated tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </div></div>
-        </div>
+    <div class="left">
+        <h1>ABOUT PROJECT TEMPUS</h1>
+        <p>The Sundry was built on the promise of history. While working for them its been discovered that that promise has been a false front. They have been changing history for their own greed. You and your team were terminated upon digging up their true goals. Having survived the termination you must now stop them at their own game.</p>
+        <ul>
+            <li>information</li>
+            <li>information</li>
+            <li>information</li>
+            <li>information</li>
+            <li>information</li>
+        </ul>
+        <ul>
+            <li>information</li>
+            <li>information</li>
+            <li>information</li>
+            <li>information</li>
+            <li>information</li>
+        </ul>
+    </div>
+    <div class="middle">
+        <img id="poster" src="~/images/poster.JPG" alt="Poster Image">
+    </div>
+    <div class="right">
+        <h1>THE STORY</h1>
+        <p>The Sundry was built on the promise of history. While working for them its been discovered that that promise has been a false front. They have been changing history for their own greed. You and your team were terminated upon digging up their true goals. Having survived the termination you must now stop them at their own game.</p>
+        <img id="poster_main" src="~/images/UI_FULL_MENU_02.JPG" alt="menu screen">
+         <p>The Sundry was built on the promise of history. While working for them its been discovered that that promise has been a false front. They have been changing history for their own greed. You and your team were terminated upon digging up their true goals. Having survived the termination you must now stop them at their own game.</p>
+    </div>
 </div>
-<div class="parallax">
-            <div class="content">
-                <div class="left_side">
-                    <img class="left_img" src="~/images/poster.jpg">
-                </div>
-                <div class="right_side" id="text">
-                    <div class="text">
-                        <h2> Welcome to Pax West in Seattle!</h2>
-                        <h3> This is Project Tempus</h3>
-                        <ul>
-                            <li>a list of filler</li>
-                            <li>a list of filler</li>
-                            <li>a list of filler</li>
-                            <li>a list of filler</li>
-                            <li>a list of filler</li>
-                        </ul>
-                        <p> WOOOOOOOOOOOOOOOOOOds safdglkjsfbvaslkgbi vvjnjg ipibv pbnpibj bih  bb apiunie pi pib einbibb i ebnbb b etbenbpiet etiet ebiebnibfbidietihe thetbmtbpijr tbg ewgnrgijgne eb  eibje tern</p>
-                    </div>
-                </div>
-            </div>
+<div id="parent_parallax">
+    <div class="parallax1">
+        <div id="pax_text">
+            <h1> Pax Prime 2018</h1>
+            <ul>
+                <li><p> Come visit our Booth at Pax in Seattle!</p></li>
+                <li> <p> August 31st - September 3rd. </p></li>
+            </ul>
         </div>
-
-        <div id="large1">
+        <img id="poster_pax" src="~/images/paxwest.JPG" alt="Poster Image">
+        <img class="Logo_i" src="~/images/Pax_west_logo.png" alt="Poster Image">
+        <img class="Logo_i2" src="~/images/ais.png" alt="Poster Image">
+    </div>
+    <div class="parallax2">
+       <h1> Media </h1>
+       <img class="fancybox" id="media" src="~/images/door_screenshot.jpg" />
+       <img class="fancybox" id="media" src="~/images/door_screenshot.jpg" />
+       <img class="fancybox" id="media" src="~/images/door_screenshot.jpg" />
+       <img class="fancybox" id="media" src="~/images/door_screenshot.jpg" />
+       <img class="fancybox" id="media" src="~/images/door_screenshot.jpg" />
+       <img class="fancybox" id="media" src="~/images/door_screenshot.jpg" />
+    </div>
+</div>
+<div class="parallax3">
+    <div id="left_side">
+        <div class="profile2"><h1>ABOUT THE PROJECT TEMPUS TEAM</h1></div>
+        <div class="profile1"><img class="Logo_imgs" src="~/images/logo.png"></div>
+        <div class="profile">
+            <img class="profile_img" src="~/images/master.jpg">
+            <h3>Ben Hawkins</h3>
+            <p>SUPER GAY, his ideas suck, should be kicked out of the group, worthless SOAB, also some more filler, and then this line so that this box is full. fuuuuuuuuuuuuuuuuuuuuuuullllllllll    sfdlgjnsdfaglkjb</p>
         </div>
+        <div class="profile"></div>
+        <div class="profile"></div>
+        <div class="profile"></div>
+        <div class="profile"></div>
+        <div class="profile"></div>
+        <div class="profile"></div>
+    </div>
+</div>
