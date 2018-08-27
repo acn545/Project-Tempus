@@ -1,25 +1,40 @@
 .parallax{
-    background: url("../images/inengine.JPG") no-repeat center;
+    background: url("../images/para1.png") no-repeat center;
     background-size: cover;
-    background-attachment: fixed;
-    height: 800px;
+    height: 825px;
     margin: 0px;
     width: 100%;
+    border-bottom: 5px solid rgb(158,89,24);
 }
 .parallax1{
-    background: url("../images/hawk.JPG") no-repeat center;
+    background: url("../images/para2.png") no-repeat center;
+    height: 600px;
     background-size: cover;
-    background-attachment: fixed;
-    height: 800px;
-    margin: 0px;
-    margin-top: -80px;
-    min-width: 650px;
-    width: 100%;
-}
-iframe{
     margin: 0px auto;
+    width: 49.8%;
+    display: inline-block;
+}
+.parallax2{
+    background: url("../images/para3.png") no-repeat center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    height: 600px;
+    margin: 0px auto;
+    width: 49.8%;
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+}
+.parallax3{
+    background: url("../images/para4.png") no-repeat center;
+    background-size: cover;
+    height: 700px;
+    margin: 0px;
     width: 100%;
-
+    border-top: 5px solid rgb(158,89,24);
+}
+#parent_parallax{
+    background-color: rgb(158,89,24);
 }
 .content{
     margin: 0px auto;
@@ -41,151 +56,193 @@ iframe{
 
 
 }
-.left_side{
-    margin-top: 40px;
+.left{
+    width: 30%;
     display: inline-block;
-    width: 55%;
-
-/* border: 2px solid red;*/
+    vertical-align: top;
+    margin-top: 5%;
+    padding-left: 1%;
+    padding-bottom: 10%;
 }
-.right_side{
-    margin-top: 40px;
-    width: 35%;
+.left ul{
     display: inline-block;
-   /*border: 2px solid blue;*/ 
+    font-size: 25px;
+    padding-left: 17%;
+    }
+.left p{
+    padding: 5%;
+}
+/*.left:hover{
+    background-color: black;
+    border: 2px solid rgb(158,89,24);
+    opacity: .8;
+}
+.left p:hover{
+    opacity: 1;
+} */
+h1{
+    text-decoration: underline;
+    text-decoration: Bold;
+    margin-left: 3.5%;
+}
+ parallax p, parallax li{
+    font-size: 25px;
+}
+.right{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5%;
+    padding-left: 1%;
+    
+}
+.middle{
+    width: 30%;
+    display: inline-block;
+    margin-top: 5%;
+
+}
+#poster{
+    width: 90%;
+    max-height: 700px;
+    max-width: 467px;
+    border: 2px solid rgb(158,89,24);
+}
+#poster:hover{
+    z-index: 999;
+    width: 92%;
+}
+#poster_pax{
+    width: 90%;
+    max-height: 900px;
+    max-width: 604px;
+    border: 2px solid rgb(158,89,24);
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 10%;
+}
+#poster_main{
+    width: 90%;
+    max-height: 700px;
+    max-width: 467px;
+    border: 2px solid rgb(158,89,24);
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 10%;
+}
+#pax_text{
+    margin: 0px auto;
+    margin-left: 2%;
+    font-size: 15px;
+}
+#pax_text h1{
+    margin-left: 33%;
+}
+#pax_text li #pax_text ul{
+    display: inline;
+}
+.Logo_i{
+    width: 125px;
+    height: 55px;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    border-radius: 5px;
+    margin-top: -25px;
+    margin-left: 20px;
+}
+.Logo_i2{
+    border-radius: 5px;
+    width: 150px;
+    height: 35px;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    float: right;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+#left_side{
+    width: 100%;
+    display: inline-block;
+    padding-left: 10%;
+    max-width: 1300px;
+}
+#left_side h1{
+    margin-top: 10%;
+    text-align: center;
+}
+#right_side{
+    width: 30%;
+    display: inline-block;
+}
+.profile{
+    border: 2px solid rgb(158,89,24);
+    background-color: rgb(20, 19, 17);
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+    margin: 10px;
+    word-wrap: break-word;
+
+}
+.profile1{
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+
+}
+.profile2{
+    width: 500px;
+    height: 200px;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+
+}
+.Logo_imgs{
+    width: 225px;
+    height: 225px;
+    display: inline;
+    margin-top: 5%;
     vertical-align: top;
 }
-#imgs{
-    margin: 0px auto;
-    position: relative;
-    top: 10px;
-    margin-right: 10px;
-}
-.game_img{
-    width: 95px;
-    height: 95px;
-}
-.game_img:hover{
-    cursor: pointer;
-}
-.left_img{
-    width: 80%;
-}
-.left_img:hover{
-    border: 1px solid rgb(158,89,24);
-}
-#newsletter{
-    background-color: rgb(158,89,24);
-    border: 1.5px solid rgb(158,89,24);
+.profile_img{
+    margin: 10px;
+    width: 75px;
+    height: 75px;
     display: inline-block;
-    padding: 0px 15px 0px 15px;
-    margin-top: 10px;
-    font-size: 80%;
-    border-radius: 5px;
-}
-#info{
-    display: inline-block;
-    margin-right: 10px;
-    font-size: 20px;
-}
 
-iframe{
-    border: 1px solid rgb(158,89,24);
-    
 }
-#text{
-    border: 1px solid rgb(158,89,24);
-    background-color:black;
-    opacity: .80;
-    height: 710px;
+.profile h3{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+
 }
-.text{
+.profile p{
+    display: inline-block;
+    word-wrap: break-word;
+    margin-top: -10px;
     padding: 10px;
 }
-#text:hover{
-    opacity: 1;
+#media{
+    width: 200px;
+    height: 175px;
+    margin: 10px;
+    margin-left: 30px;
+    border: 2px solid rgb(158,89,24);
 }
-#pop_up{
-    display: none;
-    z-index: 999;
-    width: 400px;
-    height: 90px;
-    background-color: rgb(158,89,24);
-    border-radius: 10px;
-    border: 3px solid black;
-    box-shadow: 5px 5px black;
-    position: fixed;
-    top: 40%;
-    left: 40%;
-}
-#submit_email{
-    margin: 0px auto;
-    padding: 35px;
-}
-#close{
-    float: right;
-}
+
+
 @media(max-width: 1000px){
 
-    .left_side{
-        margin: 0px auto;
-        margin-top: 40px;
-        width: 55%;
-    }
-    iframe{
-        margin: 0px auto;
-        width: 400px;
-        height: 224px;
-    
-    }
-    #n5{
-        display: none;
-    }
-    #pop_up{
-        left: 20%
-    }
 
 }
 @media(max-width: 790px){
-    .right_side{
-        display: none;
-    }
-    #pop_up{
-        left: 10%
-    }
-
-    .left_side{
-        margin: 0px auto;
-        margin-top: 40px;
-        width: 80%;
-    }
-
-
-
 
 }
 @media(max-width: 300px){
-    iframe{
-        margin: 0px auto;
-        width: 50px;
-        height: 50px;
-    }
-    #pop_up{
-        left: 1%
-    }
-
-}
-
-#large1{
-    z-index: 999;
-    width: 40%;
-    height: 60%;
-    background-color: rgb(158,89,24);
-    border-radius: 10px;
-    border: 3px solid black;
-    position: fixed;
-    top: 10%;
-    left: 10%;
-    display: none;
-    margin: 0px auto;
 }
