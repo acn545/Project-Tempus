@@ -5,6 +5,7 @@
     margin: 0px;
     width: 100%;
     border-bottom: 5px solid rgb(158,89,24);
+    border: 2px solid pink;
 }
 .parallax1{
     background: url("../images/para2.png") no-repeat center;
@@ -13,6 +14,7 @@
     margin: 0px auto;
     width: 49.8%;
     display: inline-block;
+    border: 1px solid yellow;
 }
 .parallax2{
     background: url("../images/para3.png") no-repeat center;
@@ -24,6 +26,7 @@
     display: inline-block;
     vertical-align: top;
     float: right;
+    border: 1px solid yellow;
 }
 .parallax3{
     background: url("../images/para4.png") no-repeat center;
@@ -36,57 +39,30 @@
 #parent_parallax{
     background-color: rgb(158,89,24);
 }
-.content{
-    margin: 0px auto;
-    max-width: 1080px;
-    min-width: 565px;
-    width: 95%;
-    padding-top: 2%;
-    height: 700px;
-   /* border: 2px solid green;*/
-}
-.twitter{
-    width: 70%;
-    max-width: 250px;
-    max-height: 575px;
-    min-height: 50px;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    margin: 0px auto;
 
-
-}
 .left{
     width: 30%;
     display: inline-block;
     vertical-align: top;
     margin-top: 5%;
-    padding-left: 1%;
+    padding-left: 0%;
     padding-bottom: 10%;
+    border: 2px solid yellow;
 }
 .left ul{
     display: inline-block;
-    font-size: 25px;
     padding-left: 17%;
     }
 .left p{
     padding: 5%;
 }
-/*.left:hover{
-    background-color: black;
-    border: 2px solid rgb(158,89,24);
-    opacity: .8;
+.parallax p{
+    font-size: 100%;
 }
-.left p:hover{
-    opacity: 1;
-} */
 h1{
     text-decoration: underline;
     text-decoration: Bold;
     margin-left: 3.5%;
-}
- parallax p, parallax li{
-    font-size: 25px;
 }
 .right{
     width: 30%;
@@ -94,12 +70,14 @@ h1{
     vertical-align: top;
     margin-top: 5%;
     padding-left: 1%;
+    border: 2px solid yellow;
     
 }
 .middle{
     width: 30%;
     display: inline-block;
     margin-top: 5%;
+    border: 2px solid yellow;
 
 }
 #poster{
@@ -138,7 +116,7 @@ h1{
 #pax_text h1{
     margin-left: 33%;
 }
-#pax_text li #pax_text ul{
+#pax_text ul #pax_text ul{
     display: inline;
 }
 .Logo_i{
@@ -148,7 +126,7 @@ h1{
     position: relative;
     vertical-align: top;
     border-radius: 5px;
-    margin-top: -25px;
+    margin-top: -5%;
     margin-left: 20px;
 }
 .Logo_i2{
@@ -160,13 +138,15 @@ h1{
     vertical-align: top;
     float: right;
     margin-right: 20px;
-    margin-top: -10px;
+    margin-top: -4%;
 }
-#left_side{
-    width: 100%;
-    display: inline-block;
+.s1080p{
+    max-width: 1700px;
+    width: 90%;
     padding-left: 10%;
-    max-width: 1300px;
+    margin: 0px auto;
+    border: 2px solid yellow;
+    max-height: 825px;
 }
 #left_side h1{
     margin-top: 10%;
@@ -236,13 +216,151 @@ h1{
     border: 2px solid rgb(158,89,24);
 }
 
-
+@media(max-width: 1500px){
+    .right{
+        width: 45%;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 5%;
+        padding-left: 1%;
+        border: 2px solid yellow;
+        min-width: 400px;
+        
+    }
+    .middle{
+        width: 30%;
+        display: inline-block;
+        margin-top: 5%;
+        border: 2px solid yellow;
+        display: none;
+    
+    }
+    .left{
+        width: 45%;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 5%;
+        padding-left: 0%;
+        padding-bottom: 10%;
+        border: 2px solid yellow;
+        min-width: 400px;
+    }
+    .left ul{
+        display: inline-block;
+        padding-left: 17%;
+    }
+  
+    .row3{
+        display: none;
+    }
+}
 @media(max-width: 1000px){
-
-
+    .parallax{
+        background: url("../images/para1.png") no-repeat center;
+        background-size: cover;
+        height: 1300px;
+        margin: 0px;
+        width: 100%;
+        border-bottom: 5px solid rgb(158,89,24);
+        border: 2px solid pink;
+    }
+    .right{
+        width: 90%;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 5%;
+        padding-left: 1%;
+        border: 2px solid yellow;
+        min-width: 400px;
+        
+    }
+    .left{
+        width: 90%;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 5%;
+        padding-left: 0%;
+        padding-bottom: 10%;
+        border: 2px solid yellow;
+        min-width: 400px;
+    }
+    .s1080p{
+        max-width: 1700px;
+        width: 90%;
+        padding-left: 10%;
+        margin: 0px auto;
+        border: 2px solid yellow;
+        max-height: 1650px;
+    }
+    .row2{
+        display: none;
+    }
+    .parallax1{
+        background: url("../images/para2.png") no-repeat center;
+        height: 500px;
+        background-size: cover;
+        margin: 0px auto;
+        width: 99%;
+        display: inline-block;
+    }
+    .parallax2{
+        background: url("../images/para3.png") no-repeat center;
+        background-size: cover;
+        /* background-attachment: fixed; */
+        height: 500px;
+        margin: 0px auto;
+        width: 99%;
+        display: inline-block;
+        vertical-align: top;
+        float: right;
+    }
+    #pax_text{
+        margin: 0px auto;
+        margin-left: 2%;
+        font-size: 15px;
+    }
+    #pax_text h1{
+        margin-left: 15%;
+    }
 }
-@media(max-width: 790px){
+@media(max-width: 640px){
+    .parallax{
+        background: url("../images/para1.png") no-repeat center;
+        background-size: cover;
+        height: 1300px;
+        margin: 0px;
+        width: 100%;
+        border-bottom: 5px solid rgb(158,89,24);
+        border: 2px solid pink;
+    }
+    .right{
+        width: 90%;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 5%;
+        padding-left: 1%;
+        border: 2px solid yellow;
+        min-width: 300px;
+        
+    }
+    .left{
+        width: 90%;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 8%;
+        padding-bottom: 10%;
+        border: 2px solid yellow;
+        min-width: 300px;
+    }
+    .s1080p{
+        max-width: 1700px;
+        width: 90%;
+        padding-left: 10%;
+        margin: 0px auto;
+        border: 2px solid yellow;
+        max-height: 1650px;
+    }
+}
+@media(max-width: 480px){
+}
 
-}
-@media(max-width: 300px){
-}

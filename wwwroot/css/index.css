@@ -3,7 +3,7 @@ body{
     width: 100%;
     background-color: black;
     color: white;
-    overflow-x: hidden;
+   
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -41,27 +41,6 @@ footer{
     height: 40px;
     margin: 0px auto;
     border-top: 5px solid  rgb(158,89,24);
-}
-.social_buttons{
-    width: 25px;
-    height: 25px;
-    display: inline;
-    position: relative;
-    vertical-align: top;
-    bottom: 5px;
-}
-.social_buttons:hover{
-    width: 30px;
-    height: 30px;
-    display: inline-block;
-    vertical-align: top;
-}
-.Socials{
-    margin: 0px auto;
-    float: right;
-    position: relative;
-    top: 10px;
-    margin-right: 10px;
 }
 #navigation{
     margin: 0px auto;
