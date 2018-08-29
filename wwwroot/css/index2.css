@@ -87,7 +87,7 @@ h1{
     border: 2px solid rgb(158,89,24);
 }
 #poster:hover{
-    z-index: 999;
+    z-index: 998;
     width: 92%;
 }
 #poster_pax{
@@ -141,7 +141,7 @@ h1{
     margin-top: -4%;
 }
 .s1080p{
-    max-width: 1700px;
+    max-width: 1600px;
     width: 90%;
     padding-left: 10%;
     margin: 0px auto;
@@ -322,6 +322,22 @@ h1{
     #pax_text h1{
         margin-left: 15%;
     }
+    #parent_parallax{
+        background-color: rgb(158,89,24);
+        height: 1000px;
+    }
+    .parallax3{
+        background: url("../images/para4.png") no-repeat center;
+        background-size: cover;
+        height: 2100px;
+        margin: 0px;
+        width: 100%;
+        border-top: 5px solid rgb(158,89,24);
+    }
+    .s1000p{
+        width: 500px;
+        border: 2px solid green;
+    }
 }
 @media(max-width: 640px){
     .parallax{
@@ -359,6 +375,14 @@ h1{
         margin: 0px auto;
         border: 2px solid yellow;
         max-height: 1650px;
+    }#media{
+        margin-left: 25%;
+    }
+    .profile1{
+        margin-left: 20%;
+    }
+    .profile{
+        margin-left: 0%;
     }
 }
 @media(max-width: 480px){
