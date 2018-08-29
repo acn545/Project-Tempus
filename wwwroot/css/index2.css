@@ -253,6 +253,14 @@ h1{
     .row3{
         display: none;
     }
+    .parallax3{
+        background: url("../images/para4.png") no-repeat center;
+        background-size: cover;
+        height: 1200px;
+        margin: 0px;
+        width: 100%;
+        border-top: 5px solid rgb(158,89,24);
+    }
 }
 @media(max-width: 1000px){
     .parallax{
@@ -379,10 +387,16 @@ h1{
         margin-left: 25%;
     }
     .profile1{
-        margin-left: 20%;
+        margin-left: 10%;
     }
     .profile{
-        margin-left: 0%;
+        margin-left: -9%;
+        width: 340px;
+        height: 190px;
+    }
+    .profile2{
+        width: 100%;
+        margin: 0%;
     }
 }
 @media(max-width: 480px){
