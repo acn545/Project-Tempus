@@ -62,6 +62,14 @@
 .left p{
     padding: 5%;
 }
+.left:hover{
+    background-color: black;
+    opacity: .8;
+}
+.right:hover{
+    background-color: black;
+    opacity: .8;
+}
 .parallax p{
     font-size: 100%;
 }
