@@ -321,6 +321,10 @@ h1, h3 {
     }
 }
 @media(max-width: 1000px){
+
+    #story_img{
+        display: none; 
+    }
     .parallax{
         background: url("../images/para1.png") no-repeat center;
         background-size: cover;
@@ -472,24 +476,32 @@ h1, h3 {
 #left_story{
     width: 95%;
 }
+}
 @media(max-width: 2100px){
     #story_img{
         position: absolute;
         z-index: 1000;
         width: 30%;
-        display: inline-block;  
-        top: 100%;
+        display: inline-block;
         left: 65%;
+        top: 110%;
+    }
+    #media_text h1{
+        margin-left: 5%;
     }
 }
-@media(max-width: 1700px){
+
+@media(max-width: 1900px){
     #story_img{
         position: absolute;
         z-index: 1000;
         width: 30%;
-        display: inline-block;  
-        top: 110%;
+        display: inline-block;
         left: 65%;
+        top: 120%;
+    }
+    #media_text h1{
+        margin-left: 45%;
     }
 }
 
