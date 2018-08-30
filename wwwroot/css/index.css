@@ -33,7 +33,7 @@ nav{
     color: white;
     font-size: 22px;
     font-style: bold;
-    z-index: 999;
+    z-index: 1000;
     border-bottom: 1px;
     border-color: rgb(158,89,24);
     border-bottom-style: solid;
