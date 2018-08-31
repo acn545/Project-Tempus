@@ -279,6 +279,20 @@ h1, h3 {
     font-style:normal;
     }
 
+    @media(max-width: 2100px){
+        #media_text h1{
+            margin-left: 5%;
+        }
+        #left_story{
+            margin-top: -1%;
+            font-size: 100%;
+        }
+        #left_story h1{
+            margin-left: -2%;
+            margin-bottom: 2%;
+        }
+    }
+
 @media(max-width: 1500px){
 
     .right{
@@ -327,7 +341,6 @@ h1, h3 {
     }
 }
 @media(max-width: 1000px){
-
     #story_img{
         display: none; 
     }
@@ -369,11 +382,14 @@ h1, h3 {
         max-height: 1650px;
     }
     .row2{
-        display: none;
+        display: inline;
+    }
+    .row3{
+        display: inline;
     }
     .parallax1{
         background: url("../images/para2.png") no-repeat center;
-        height: 500px;
+        height: 595px;
         background-size: cover;
         margin: 0px auto;
         width: 100%;
@@ -408,7 +424,7 @@ h1, h3 {
         height: 2100px;
         margin: 0px;
         width: 100%;
-        border-top: 5px solid rgb(158,89,24);
+        border-top: 100px solid rgb(158,89,24);
     }
     .s1000p{
         width: 500px;
@@ -419,6 +435,21 @@ h1, h3 {
         margin-top: 0%;
         }
 }
+
+@media(max-width: 800px){
+    .row3{
+        display: none;
+    }
+    .parallax3{
+        border-top: 100px solid rgb(158,89,24);
+    }
+}
+@media(max-width: 680px){
+    .row2{
+        display: none;
+    }
+}
+
 @media(max-width: 640px){
     .parallax{
         background: url("../images/para1.png") no-repeat center;
@@ -462,6 +493,9 @@ h1, h3 {
         width: 340px;
         height: 190px;
     }
+    .profile2 h1{
+        margin-top: 25%;
+    }
     .profile2{
         width: 100%;
         margin: 0%;
@@ -469,26 +503,23 @@ h1, h3 {
     .parallax3{
         margin: 0px auto;
         width: 100%;
+        border-top: 100px solid rgb(158,89,24);
     }
     .parallax2{
         margin: 0px auto;
         width: 100%;
     }
     #story_img{
-    display: none;
-}
+        display: none;
+    }
     #left_story{
-    width: 95%;
-    font-size: 70%;
-    margin-top: -4%;
+        width: 100%;
+        font-size: 70%;
+        margin-top: -4%;
     }
     #left_story h1{
         margin-bottom: -1%;
     }
 }
-@media(max-width: 2100px){
-    #media_text h1{
-        margin-left: 5%;
-    }
-}
+
 
