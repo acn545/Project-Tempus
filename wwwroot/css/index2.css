@@ -1,3 +1,4 @@
+
 h1 {
     font-family: 'ar_destineregular', Arial, sans-serif;
     font-weight:normal;
@@ -304,6 +305,10 @@ h1, h3 {
         min-width: 400px;
         
     }
+    #left_story p{
+        margin-top: -1.8%;
+        font-size: 94%;
+    }
     .middle{
         width: 30%;
         display: inline-block;
@@ -337,12 +342,15 @@ h1, h3 {
         border-top: 5px solid rgb(158,89,24);
     }
     #left_story{
-        margin-bottom: 0%;
+        margin-bottom: 2%;
     }
 }
 @media(max-width: 1000px){
     #story_img{
         display: none; 
+    }
+    #left_story p{
+        margin-top: 0%;
     }
 
     #left_story h1{
@@ -394,6 +402,7 @@ h1, h3 {
         margin: 0px auto;
         width: 100%;
         display: inline-block;
+        border-bottom: 5px solid rgb(158,89,24);
     }
     .parallax2{
         background: url("../images/para3.png") no-repeat center;
@@ -404,7 +413,7 @@ h1, h3 {
         width: 100%;
         display: inline-block;
         vertical-align: top;
-        float: right;
+        
     }
     #pax_text{
         margin: 0px auto;
@@ -424,7 +433,7 @@ h1, h3 {
         height: 2100px;
         margin: 0px;
         width: 100%;
-        border-top: 100px solid rgb(158,89,24);
+        border-top: 105px solid rgb(158,89,24);
     }
     .s1000p{
         width: 500px;
@@ -434,6 +443,10 @@ h1, h3 {
         font-size: 80%;
         margin-top: 0%;
         }
+    .profile2{
+        width: 50%;
+    }
+  
 }
 
 @media(max-width: 800px){
@@ -503,7 +516,7 @@ h1, h3 {
     .parallax3{
         margin: 0px auto;
         width: 100%;
-        border-top: 100px solid rgb(158,89,24);
+        border-top: 105px solid rgb(158,89,24);
     }
     .parallax2{
         margin: 0px auto;
